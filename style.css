@@ -1,0 +1,122 @@
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: #F5F5F5;
+    /* text-decoration: none; */
+    font-family: 'Inter', sans-serif;
+}
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 780px;
+   background: #23252C;
+   font-family: 'Inter', sans-serif;
+}
+
+    
+
+div{
+    margin: 0;
+    padding: 0;
+    width: 317px;
+    
+}
+.main-img{
+    margin:0 1em;
+    padding: 0;
+    width: 317px;
+    height:317px;
+    background-size: cover;
+    background-size: contain;
+     border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 5px 5px  #888888;
+  
+
+        
+}
+.container{
+    background: 1A1B21;
+    margin-left: 1em;
+    background: #23252C;
+     width: 317px;
+    height: 317px;
+    text-align: center;
+    display: grid;
+    color: white;
+    grid-template-columns: 1fr;
+    background: #1A1B21;
+}
+
+.fe-dev{
+    color:#F3BF99;
+}
+.btn{
+    margin-left: 1em;
+    padding: 0;
+    background: #1A1B21;
+}
+.icon-btn{
+    
+    margin:0em;
+   padding: 5px 25px;
+   border-radius: 5px;
+
+}
+.main-info{
+    margin-left: 1em;
+    background: #1A1B21;
+     width: 317px;
+    
+}
+.email{
+    background: #ffffff;
+    color: black;
+    margin: 1em;
+    text-decoration: none;
+}
+.linkedin{
+   background: #5093E2;
+   color: white;
+}
+h3{
+    margin: 1em 0 0;
+}
+.about, .interest {
+    color:#F3BF99;
+    margin-left: 1em;
+    text-align:left;
+    
+}
+p{
+   margin-left: 1em; 
+   margin-right: 5em;
+   text-align:left;
+}
+/* Footer */
+Footer {
+  width: 317PX;
+  height: 64px;
+  margin-left:1em;
+  background-color: #161619;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+Footer i {
+  margin: 0 15px;
+}
+
+Footer i:hover,
+Footer i:focus {
+  color: gray;
+  cursor: pointer;
+}
